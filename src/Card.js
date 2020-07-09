@@ -16,15 +16,15 @@ class Card extends React.Component {
 
 
     return (
-      <div className="col-auto">
-        <div className="card bg-light">
+      <div className="col-auto container">
+        <div className="card ground bg-light">
           <h3 className="card-title">{moment(newDate).format('dddd')}</h3>
-          <p className="text-muted">{moment(newDate).format('MMMM Do, h:mm a')}</p>
+          <p className="text-muted">{moment(newDate).format('MMMM Do ')}</p>
           <i className={imgURL}></i>
           <h2>{Math.round(this.props.day.main.temp)} °F</h2>
           <div className="card-body">
             <p className="card-text">{this.props.day.weather[0].description}</p>
-            <button className="btn btn-dark btn-outline-light">See Hourly Forecast</button>
+            {/* <button className="btn btn-dark btn-outline-light">See Hourly Forecast</button> */}
           </div>
         </div>
       </div>

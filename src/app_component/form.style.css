@@ -1,0 +1,49 @@
+form {
+  margin-top: 3rem;
+  margin-left: -10%;
+  /* top: 30rem; */
+}
+
+form input[name="city"],
+form input[name="country"] {
+  background-color: transparent;
+  color: white;
+  border: none;
+  border-bottom: 2px solid brown;
+  border-radius: 0;
+}
+
+.Bro{
+  /* top: 20%; */
+  font-weight: 1200 !important;
+  font-size: 3rem;
+  font-family: sans-serif;
+  color:gold !important;
+  margin-top: 5% !important;
+}
+
+.TempBox{
+  position: relative;
+  display: inline-block;
+  margin: 30px auto;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+
+  padding: 15px 25px;
+
+  color: #FFF !important;
+  font-size: 102px;
+  font-weight: 900;
+
+  text-shadow: 3px 6px rgba(50, 50, 70, 0.5);
+  text-align: center;
+  box-shadow: 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+
+.bac{
+  color:black !important;
+}
+.super{
+  display: inline;
+}

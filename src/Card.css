@@ -3,16 +3,33 @@
   color: 	#44aadd;
 }
 
+
 .btn {
   background-color: #44aadd;
 }
 
+.card-text{
+  color: chocolate;
+  font-weight: 700;
+
+  font-size: medium;
+
+}
+
+ .text-muted{
+  color: green !important;
+  font-weight: 700;
+  font-size: large;
+ } 
+
 .card {
-  width: 20rem;
-  padding-top: 2rem;
+  width: 10rem;
+  margin-left:10%;
+  margin-top:  -5rem !important;
+  /* padding-top: 2rem;
   padding-bottom: 2rem;
   margin-bottom: 1rem;
-  margin-top: 1rem;
+  margin-top: 1rem; */
 }
 
 i:hover {
@@ -35,4 +52,9 @@ i:hover {
   /* 80% { transform: translate(-1px, -1px) rotate(1deg); } */
   90% { transform: translate(1px, 2px) rotate(0deg); }
   /* 100% { transform: translate(1px, -2px) rotate(-1deg); } */
+}
+
+.ground{
+
+  background:radial-gradient(red,orange,white,lightgrey)
 }

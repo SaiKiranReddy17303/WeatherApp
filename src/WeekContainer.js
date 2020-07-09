@@ -1,9 +1,7 @@
 import React from 'react';
 import Card from './Card';
 
-const Api_Key = "4c93327739d639573eaaef3004f89ec0";
-    const weatherURL =
-    `http://api.openweathermap.org/data/2.5/forecast?zip=11102&units=imperial&APPID=${Api_Key}`
+
 
 
 class WeekContainer extends React.Component {
@@ -12,6 +10,16 @@ class WeekContainer extends React.Component {
   }
 
   componentDidMount = () => {
+
+
+    const Api_Key = "4c93327739d639573eaaef3004f89ec0";
+    // const country=this.props.citypar;
+    const weatherURL =
+    `http://api.openweathermap.org/data/2.5/forecast?zip=10302,us&units=imperial&APPID=${Api_Key}`
+
+
+
+
     fetch(weatherURL)
     .then(res => res.json())
     .then(data => {
@@ -27,13 +35,25 @@ class WeekContainer extends React.Component {
 
   render() {
     return (
-      <div className="container">
-      <h1 className="display-1 jumbotron">5-Day Forecast.</h1>
-      <h5 className="display-5 text-muted">New York, US</h5>
-        <div className="row justify-content-center">
+      <div className="container-fluid">
+      {/* <h1 className="display-1 jumbotron">5-Day Forecast.</h1> */}
+      {/* <h5 className="display-5 text-muted">New York, US</h5> */}
+        <div className="row">
 
+         
+
+       
           {this.formatCards()}
 
+  
+
+
+
+
+         
+          
+        
+        
         </div>
       </div>
     )

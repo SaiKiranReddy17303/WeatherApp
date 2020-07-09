@@ -32,6 +32,10 @@
   }
 }
 
-body {
-  /* background-color: #676b72; */
+.cont{
+  margin-left: -2%;
+}
+
+.cont1{
+  top: 6%;
 }
