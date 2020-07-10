@@ -25,10 +25,7 @@ class WeekContainer extends React.Component {
    
     const weatherURL = `http://api.openweathermap.org/data/2.5/forecast?zip=10302,us&units=imperial&APPID=${Api_Key}`;
 
-    // `http://api.openweathermap.org/data/2.5/forecast?q={}&APPID=${Api_Key}`
-
-    //  const weatherURL = `https://samples.openweathermap.org/data/2.5/forecast?q=London,us&appid=439d4b804bc8187953eb36d2a8c26a02`;
-
+    
 
 
     fetch(weatherURL)
@@ -49,8 +46,7 @@ class WeekContainer extends React.Component {
   render(props) {
     return (
       <div className="container-fluid">
-      {/* <h1 className="display-1 jumbotron">5-Day Forecast.</h1> */}
-      {/* <h5 className="display-5 text-muted">New York, US</h5> */}
+     
         <div className="row">
 
          

@@ -6,9 +6,7 @@ import WeekContainer from './WeekContainer';
 
 import Form from "./app_component/form.component";
 import Weather from "./app_component/weather.component";
-// import "bootstrap/dist/css/bootstrap.min.css";
 
-// import "weather-icons-master/css/weather-icons.css";
 
 const Api_Key = "4c93327739d639573eaaef3004f89ec0";
 

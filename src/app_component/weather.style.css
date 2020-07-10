@@ -1,6 +1,6 @@
 .container {
   margin-top: 1.2rem;
-  /* top: 0% !important; */
+  
  
 }
 
@@ -19,27 +19,30 @@
 }
 
 .TempBox1{
-  /* height: 10rem !important; */
+ 
   position: relative;
   display: inline-block;
   margin: 20px auto;
-  /* background-color: rgba(255, 255, 255, 0.2); */
+  
   border-radius: 16px;
 
-  /* padding: px 15px; */
+  
   color:  whitesmoke !important;
-  /* font-size: 50rem !important; */
+  
   font-weight: 1200;
   font-size: larger;
-  /* text-shadow: 3px 6px rgba(50, 50, 70, 0.5);] */
+ 
   text-align: center !important;
-  /* box-shadow: 3px 6px rgba(0, 0, 0, 0.2); */
+  
 }
 
 
 .temo{
   color: goldenrod;
 }
+
+
+
 .date{
 
   color: whitesmoke !important;
@@ -92,4 +95,5 @@
   font-family: sans-serif;
 
 }
+
 

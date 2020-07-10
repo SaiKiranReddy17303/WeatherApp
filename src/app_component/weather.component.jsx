@@ -25,13 +25,7 @@ const Weather = props => {
      <div className= {(typeof props.temp_celsius != "undefined") ? ((props.temp_celsius > 30) ? 'warm': 'cool') : ''}>
       <div className="container text-light">
       <div className="Card">
-        {/* <h1 className=" Desc1  py-3">{props.cityname}</h1>
-        <h5 className="py-4">
-
-          {props.cityname &&  <i className={`wi ${props.weatherIcon} display-1 bac`} />}
-          
-
-        </h5> */}
+       
         <br/>
         <br/>
         <br/>

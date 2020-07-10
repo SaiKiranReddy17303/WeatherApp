@@ -32,11 +32,26 @@
   width: 10rem;
   margin-left:10%;
   margin-top:  -5rem !important;
-  /* padding-top: 2rem;
-  padding-bottom: 2rem;
-  margin-bottom: 1rem;
-  margin-top: 1rem; */
+  
 }
+
+@media only screen and (max-width: 420px){
+
+  .card {
+  
+     width: 12rem;
+     justify-content:space-around;
+ }
+} 
+
+
+
+
+
+
+
+
+
 
 i:hover {
   /* Start the shake animation and make the animation last for 0.5 seconds */
