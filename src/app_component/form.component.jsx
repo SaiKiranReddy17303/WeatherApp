@@ -16,7 +16,7 @@ const Form = props => {
             <input
               type="text"
               className="form-control"
-              placeholder="City"
+              placeholder="CITY"
               name="city"
               autoComplete="off"
             />
@@ -25,7 +25,7 @@ const Form = props => {
             <input
               type="text"
               className="form-control"
-              placeholder="Country"
+              placeholder="COUNTRY"
               name="country"
               autoComplete="off"
             />
@@ -38,7 +38,8 @@ const Form = props => {
        
       </form>
       <div className="Bro">
-            {props.City}
+        {props.City}
+            
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <h5 className="py-4 super">
 

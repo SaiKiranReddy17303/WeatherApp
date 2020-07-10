@@ -15,27 +15,31 @@
   background-color: transparent;
   box-shadow: none !important;
   border: none;
-  border-bottom: 2px solid green;
+  border-bottom: 2px solid rgb(0, 255, 64);
 }
 
-.TempBox{
+.TempBox1{
+  /* height: 10rem !important; */
   position: relative;
   display: inline-block;
-  margin: 30px auto;
-  background-color: rgba(255, 255, 255, 0.2);
+  margin: 20px auto;
+  /* background-color: rgba(255, 255, 255, 0.2); */
   border-radius: 16px;
 
-  padding: 15px 25px;
-
-  color: white !important;
-  font-size: 102px;
-  font-weight: 900;
-
-  text-shadow: 3px 6px rgba(50, 50, 70, 0.5);
-  text-align: center;
-  box-shadow: 3px 6px rgba(0, 0, 0, 0.2);
+  /* padding: px 15px; */
+  color:  whitesmoke !important;
+  /* font-size: 50rem !important; */
+  font-weight: 1200;
+  font-size: larger;
+  /* text-shadow: 3px 6px rgba(50, 50, 70, 0.5);] */
+  text-align: center !important;
+  /* box-shadow: 3px 6px rgba(0, 0, 0, 0.2); */
 }
 
+
+.temo{
+  color: goldenrod;
+}
 .date{
 
   color: whitesmoke !important;
@@ -57,28 +61,35 @@
 
 
 .Desc{
-  color: darkgoldenrod !important;
+  color:  darkblue !important;
   
-  font-size: 48px;
+  font-size: 40px;
   font-weight: 700;
+  font-family: sans-serif;
+
   text-shadow: 3px 3px rgba(50, 50, 70, 0.5);
 }
 
 .bac{
-  color:black !important;
+  color:skyblue !important;
 }
 
 .bac1{
   color: red !important;
   font-weight: 500;
+  font-family: sans-serif;
+
 }
 
 
 .pressure{
-  color:darkblue !important;
+  color: violet !important;
+  font-family: sans-serif;
 }
 
 .humidity{
   color:green !important;
+  font-family: sans-serif;
+
 }
 

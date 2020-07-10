@@ -63,10 +63,10 @@ const Weather = props => {
 
 
 
-        <div className={ props.temp_celsius ? 'TempBox' :" "} >
+        <div className={ props.temp_celsius ? 'TempBox1' :" "} >
         {/* Get Celsius */}
         {props.temp_celsius ? (
-          <h1 className="py-2">{props.temp_celsius}&deg; C</h1>
+          <h1 className="py-2 display-1">{props.temp_celsius}&deg; <span className="temo"> C</span></h1>
         ) : null}
         </div>
          
@@ -78,7 +78,8 @@ const Weather = props => {
 
         {/* show max and min temp */}
         <div className="bac1">
-        {maxminTemp(props.temp_min, props.temp_max)}
+          <h1 className="">{maxminTemp(props.temp_min, props.temp_max)}</h1>
+        
         </div>
        
 

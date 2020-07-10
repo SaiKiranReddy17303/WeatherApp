@@ -149,7 +149,10 @@ class App extends Component {
   
   </div>
   <div className="col-md-12">
-  < WeekContainer  />
+  
+  { (typeof this.state.celsius != "undefined") ?  < WeekContainer   /> :" "}
+      
+ 
 </div>
 </div>
 

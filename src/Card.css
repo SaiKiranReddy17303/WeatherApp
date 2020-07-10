@@ -8,18 +8,24 @@
   background-color: #44aadd;
 }
 
-.card-text{
-  color: chocolate;
-  font-weight: 700;
 
+.card-title{
+   color: red !important;
+}
+
+.card-text{
+  color:darkslategray;
+  font-weight: 500;
+  font-family: Georgia;
   font-size: medium;
 
 }
 
  .text-muted{
   color: green !important;
-  font-weight: 700;
+  font-weight: 400;
   font-size: large;
+  font-family: sans-serif;
  } 
 
 .card {
@@ -56,5 +62,5 @@ i:hover {
 
 .ground{
 
-  background:radial-gradient(red,orange,white,lightgrey)
+  background:radial-gradient(red,orange,white,lightgrey,black)
 }
